@@ -1,0 +1,14 @@
+{
+    "ts-node": { "files": true },
+    "compilerOptions": {
+        "typeRoots": ["src/types", "./node_modules/types"],
+        "lib": ["es2017"],
+        "moduleResolution": "Node16",
+        "target": "es5",
+        "module": "Node16",
+        "outDir": "./build",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true
+    }
+}
